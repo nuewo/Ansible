@@ -1,1 +1,7 @@
 ---
+- name: Check Windows Update
+
+  tasks:
+  - name: Check Windows Update
+    include_role:
+      name: check_win_updates
