@@ -1,6 +1,6 @@
 ---
 - name: Check Windows Update
-   hosts: "{{ Windows_Management }}"
+   hosts: "{{ Windows_Servers_2016 }}"
   gather_facts: False
 
   tasks:
