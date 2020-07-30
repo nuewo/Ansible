@@ -1,4 +1,5 @@
-- hosts: all
+- name: Apply Windows updates  
+  hosts: all
   tasks:
     - win_updates:
       category_names:
