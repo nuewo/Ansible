@@ -1,3 +1,5 @@
+- hosts: All
+  tasks:
 
 # Install/uninstall with win_package
 - name: Download the 7-Zip package
