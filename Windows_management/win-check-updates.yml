@@ -1,7 +1,5 @@
----
 - name: Check Windows Update
-  gather_facts: False
-
+  hosts: all
   tasks:
   - name: Check Windows Update
     include_role:
