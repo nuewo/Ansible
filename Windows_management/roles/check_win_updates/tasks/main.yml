@@ -1,6 +1,7 @@
 ---
-- name: "Search and return list of found updates (if any)"
+- name: Check for missing updates
  win_updates:
     category_names: "{{ win_update_category }}"
     state: searched
+    register: update_count
     log_path: c:\ansible_wu.txt
