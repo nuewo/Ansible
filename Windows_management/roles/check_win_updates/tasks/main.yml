@@ -1,6 +1,6 @@
 ---
-- name: "Search and return list of found updates (if any)"
-  win_updates:
+- name: "Search and return list of found updates (if any)
+ win_updates:
     category_names: "{{ win_update_category }}"
     state: searched
-  register: updates_to_install
+    log_path: c:\ansible_wu.txt
