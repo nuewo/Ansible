@@ -3,4 +3,4 @@
   win_updates:
     category_names: "{{ win_update_category }}"
     state: searched
-  register: list_of_updates
+  register: updates_to_install
