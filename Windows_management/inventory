@@ -1,5 +1,5 @@
-[windows_ad]
-windows_ad1 ansible_host=ITSATWTVANS02.itsdone.local
+[windows_vm]
+windows_vm1 ansible_host=ITSATWTVANS02.itsdone.local
 
 [windows_ad:vars]
 ansible_connection: winrm
